@@ -24,6 +24,7 @@ body {
 
 
 .navbar {
+    background-color: antiquewhite;
     width: 100%;
     height: 100px;
     display: flex;
@@ -32,8 +33,9 @@ body {
     gap: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
-    position: sticky;
-    top:0;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
     flex-shrink: 1;
     flex-basis: auto;
     flex-grow: 1;
@@ -41,13 +43,13 @@ body {
 
 
 .list-navbar {
+    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 1;
     flex-grow: 1;
     font-weight: 500;
-    background-color: orange;
     width: 120px;
     height: 50px;
     border-radius: 30px;
